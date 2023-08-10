@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact-Us</title>
+   <link rel="stylesheet" href="./css/footer-style.css">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: #ccc;
+    }
+    main {
+      margin-bottom: 5px;
+    }
+    main h2 {
+      color: #6abb8ae2;
+      font-family: 'Courier New','Monospace';
+      font-weight: 500;
+      font-size: 2rem;
+      text-align: center;
+      padding: .5rem 0;
+      margin-bottom: .5rem;
+      border-bottom: 1px solid #377750e2;
+    }
+    .container {
+      width: 95%;
+      height: 590px;
+      margin: 0 auto;
+      background: #1e2538e2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 2px;
+    }
+  
+    .form-group label {
+      font-size: .9rem;
+      color: #eee;
+    }
+    .form-group >* {
+      width: 100%;
+      display: inline-block;
+      padding: .5rem 0;
+    }
+    .form-group input {
+      border: 0;
+      outline: none;
+      border-radius: 4px;
+      height: 1.5rem;
+      padding-left: .25em;
+      background: #ccc;
+      outline: 1px solid #5180c6cd;
+      -webkit-transition: all .2s ease;
+      -moz-transition: all .2s ease;
+      -ms-transition: all .2s ease;
+      -o-transition: all .2s ease;
+      transition: all .2s ease;
+    }
+    .form-group input:focus {
+      border: 1px solid #6482d6e2;
+      box-shadow: 0 0 .5em #6482d6e2;
+    }
+    ::placeholder {
+      font-family: Monospace;
+      color: #6775a8e2;
+      font-size: .7rem;
+    }
+    .btn-submit {
+      border: 0;
+      outline: 1px solid #ccc;
+      width: 6rem;
+      padding: 15px 0;
+      display: inline-block;
+      background: #6abb8ae2;
+      margin-top: .5em;
+      border-radius: 4px;
+      font-family: Monospace;
+      color: #436fede2;
+      font-weight: 700;
+      font-size: .8rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+  <div class="container">
+    <div class="form">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Username</label>
+          <input type="text" name="username" id="name" placeholder="enter your name e.g. Abc@123" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="enter your email e.g. abc@gmail.com" required />
+        </div>
+        <div class="form-group">
+          <label for="phno">Phone Number</label>
+          <input type="tel" name="phonenumber" id="phno" placeholder="e.g. +91827600589" required />
+        </div>
+        <div class="form-group">
+          <label for="pswd">Password</label>
+          <input type="password" name="password" id="pswd" placeholder="enter your password e.g. aBc@123#" required />
+        </div>
+        <input type="submit" value="Save Me" name="submit" class="btn-submit"/>
+      </form>
+    </div>
+  </div>
+  </main>
+  <footer class="footer">
+   <p> No copyright content © </p>
+   <div class="footer-nav">
+        <ul>
+          <li class="list-item">
+            <a href="#" class="active">Home</a>
+          </li>
+          <li class="list-item">
+            <a href="#about">About</a>
+          </li>
+          <li class="list-item">
+            <a href="#post">Post</a>
+          </li>
+          <li class="list-item">
+            <a href="#">Review</a>
+          </li>
+          <li class="list-item">
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+    </div>
+  </footer>
+</body>
+</html>
